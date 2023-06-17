@@ -1,0 +1,33 @@
+#contenedor {
+    background-color: grey;
+    width: 1000px;
+    height: 800px;
+    margin: 30px auto;
+}
+    #caja1{
+        width: 980px;
+        height: 80px;
+        background-color: yellow;
+        margin: 0 auto;
+    }
+    #caja2{
+        width: 680px;
+        height: 400px;
+        float: left;
+        margin-left:10px ;
+        background-color: blue;
+    }
+    #caja3{
+        width: 290px;
+        height: 500px;
+        float: right;
+        margin-right: 10px;
+        background-color: red;
+    }
+    #caja4{
+        width: 980px;
+        height: 180px;
+        margin-left: 10px;
+        clear:both;
+        background-color: black;
+    }

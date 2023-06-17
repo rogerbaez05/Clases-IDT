@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <br><br>
+    <form action="recibir.php" method="post">
+        <label for="elnombre">Nombre</label>
+        <input type="text" name="nombre" ip="elnombre" placeholder="Nombre"> <br> <br>
+        <label for="elapellido">Apellido</label>
+        <input type="text" name="apellido" id="elapellido"> <br> <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"><br> <br>
+        <label for="ladireccion">Dirección</label>
+        <input type="text" name="direccion" id="ladireccion"><br><br>
+        <label for="lacontraseña">Contraseña</label>
+        <input type="password" name="contraseña" id="lacontraseña"><br><br>
+        <label for="telefono"> Telefono</label>
+        <input type="text" name="telefono" id="telefono"><br><br>
+        Productos <br><br>
+        <input type="checkbox" name="dd500">
+        Disco duro 500 Gb. <br>
+        <input type="checkbox" name="dd2tb">
+        Disco duro 2 Tb. <br>
+        <input type="checkbox" name="procesador">
+        Procesador i5. <br><br>
+        Sexo <br>
+        <input type="radio" name="sexo" id="femenino" value="Femenino" checked>
+        <label for="femenino">Femenino</label>
+        <br><br>
+        <input type="radio" name="sexo" id="masculino" value="Masculino">
+        <label for="masculino">Masculino</label>
+        <br><br>
+        Compañia
+        <br><br>
+        <select name="compañia" id="lacompañia">
+            <option value="Tigo">0983 &nbsp;</option>
+            <option value="Claro">0993 &nbsp;</option>
+            <option value="Personal">0973 &nbsp;</option>
+            <option value="Vox">0963 &nbsp;</option>
+        </select> <br><br>
+        <span>Mensaje</span> <br>
+        <textarea name="mensaje" id="elmensaje" cols="30" rows="5" placeholder="..:Escriba Aqui:.."></textarea> <br><br>
+        <input type="checkbox" name="acepto">
+       <b> Acepto las condiciones establecidas </b> <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    
+
+</body>
+</html>

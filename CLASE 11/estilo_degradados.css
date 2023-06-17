@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+div{
+    border: 1px solid;
+    float: left;
+    height: 140px;
+    width: 140px;
+    margin: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    word-wrap: break-word;
+}
+h2{
+    margin: 55px 0 -30px 65px;
+    font-size: 22px;
+    white-space: pre;
+    text-align: center;
+    width: 400px;
+}
+a{
+    display: inline-block;
+    background: linear-gradient(rgb(241, 67, 67), red);
+    padding: 10px 15px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: all .3s ease;
+    position: absolute;
+    bottom: 15px;
+}
+a:hover{
+    transform: scale(1.05);
+}

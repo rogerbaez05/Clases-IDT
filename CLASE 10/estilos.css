@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color:#97908a ;
+}
+.contenedor{
+    width: 940px;
+    margin: 0 auto;
+}
+.contenedor p{
+    font-size: 40px;
+    padding-left: 20px;
+    color: white;
+    margin-bottom: 70px;
+}
+#menu li{
+    font-size: 20px;
+    display: inline-block; 
+}
+#menu li a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px 20px;
+}
+#menu li a:hover{
+    background-color: black;
+    color: white;
+}
+#menu .active a{
+    background-color: black;
+    color: white;
+}
+#menu{
+    background-color: #4d4c4a;
+    width: 100%;
+    padding-left: 20px;
+}
+.fondo{
+    background-color: #7a756f;
+    height: 400px;
+}
+.Peces{
+    width: 940px;
+    margin: 0 auto;
+    background-image: url(./img/peces.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+}
+.caja{
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    padding-bottom: 20px;
+}
+.caja1{
+    width: 300px;
+    margin: 0;
+    padding: 0px 30px 30px 30px;
+    float: left;
+}
+.caja1 h3{
+    color: rgb(82, 255, 47);
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.caja1 li{
+    list-style: none;
+    margin: 10px 0;
+}
+.caja1 ul{
+    margin-bottom: 40px;
+}
+.caja2{
+    width: 640px;
+    float: right;
+}
+.post{
+    margin: 0 0 30px 0;
+    border-bottom: 1px solid #cccccc;
+}
+.post h2{
+    padding: 4px 35px 4px 15px;
+    background:#000000; 
+    font-weight: normal; 
+    color: #FFFFFF
+}
+.post p{
+    padding: 20px 10px;
+}
+.post a{
+    color: rgb(82, 255, 47);
+    text-align: right;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 80%;
+}

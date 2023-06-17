@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#4d98db, black);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.encabezado{
+    width: 1000px;
+    margin: 0 auto;
+    background: url(images/montaña.png) no-repeat;
+    height: 120px;
+    font-family: arial;
+    font-size: 32px;
+    color: white;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.caja1{
+    width: 680px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+} 
+.caja1 h2{
+    margin-bottom: 0px;
+    font-size: 32px;
+    color: #696969;
+    padding: 0px 30px 20px 30px; 
+    padding-bottom: 0px; 
+    text-align: justify;
+}
+.caja2 h2{
+    height: 32px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d6d6d6;
+    letter-spacing: 5px;
+    font-size: 1.8em;
+    color: #696969;
+    background: url(images/img08.jpg) no-repeat left 4px;
+}
+.caja2{
+    width: 300px;
+    float: right;
+    margin: 0px;
+    padding: 0px 20px 0px 0px;
+    color: #787878;
+    list-style: circle;
+}
+.caja2 li{
+    line-height: 30px;
+    margin: 0px 30px;
+    padding: 0 0 0 15px;
+    border-left: none;
+}
+.post{
+    border: 1px solid #ffffff;
+    border-bottom: 1px dotted #e7e2dc;
+    background: linear-gradient(to bottom, #ececec, #ffffff);
+    height: 229px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.post p{
+    margin-bottom: 24px;
+    margin-top: 24px;
+    padding: 0px 30px
+    20px 30px; padding-bottom: 20px; text-align: justify;
+
+}
+b{
+    padding: 0px 30px 20px 30px; 
+    padding-bottom: 20px; 
+    text-align: justify;
+}

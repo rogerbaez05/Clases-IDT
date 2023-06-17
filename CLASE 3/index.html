@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo del uso de FORMULARIOS</title>
+</head>
+<body>
+    <form action="codigo.php" method="post">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre">
+        <br><br>
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" id="apellido">
+        <br><br>
+        <label for="ciudad">Ciudad: </label>
+        <input type="text" name="ciudad" id="ciudad" size="15" maxlength="50">
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email">
+        <br><br>
+        <input type="radio" name="sexo" id="varon" value="Varon" checked>
+        <label for="varon">Varon</label>
+        <br><br>
+        <input type="radio" name="sexo" id="mujer" value="Mujer">
+        <label for="mujer">Mujer</label>
+        <br><br>
+        <input type="submit" value="Aceptar">
+        <input type="reset" value="Restablecer">
+    </form>
+    <p align="right">
+        <a href="formulario.html">Siguiente pagina</a>
+    </p>
+</body>
+</html>
